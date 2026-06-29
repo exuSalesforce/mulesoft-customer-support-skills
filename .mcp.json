@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "mcp-006": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://mcp.us-east-1.mulesoft.com/v1/salesforce"
+      ]
+    },
+    "mcp-014": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://mcp.us-east-1.mulesoft.com/v1/zendesk"
+      ]
+    },
+    "mcp-001": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://mcp.us-east-1.mulesoft.com/v1/sap-s4hana-odata"
+      ]
+    }
+  }
+}
